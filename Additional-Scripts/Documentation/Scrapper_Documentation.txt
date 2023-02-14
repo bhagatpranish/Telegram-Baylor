@@ -1,0 +1,37 @@
+The scraping.py script is designed to extract data from a list of URLs and save the extracted information into separate CSV files. The following is a detailed description of the script and how it works:
+
+Importing Required Libraries:
+
+  The script imports the necessary libraries at the beginning. The required libraries are:
+    requests: A library for making HTTP requests.
+    BeautifulSoup: A library for parsing HTML and XML documents.
+    pandas: A library for data manipulation and analysis.
+    selenium: A library for web browser automation.
+
+Reading URLs:
+  The script reads a list of URLs from a CSV file named "urls.csv" using the csv library.
+  The URLs are stored in a list called urls.
+
+Starting the Web Driver:
+  The script starts the web driver using the webdriver module of the selenium library.
+  In this case, the Microsoft Edge driver is used to automate the web browser.
+
+Scraping Data:
+  The script loops through each URL in the urls list and performs the following operations:
+  The script extracts the username from the URL and uses it as the base name for the CSV files that will be created.
+  The script sends an HTTP request to the URL using the requests library and retrieves the HTML content of the page.
+  The script uses BeautifulSoup to parse the HTML content of the page.
+  The script loads the URL using the web driver.
+  The script scrolls to the top of the page using the execute_script() method of the web driver.
+  The script waits for the page to load using the time.sleep() method.
+  The script gets the HTML content of the page using the page_source attribute of the web driver.
+  The script uses BeautifulSoup to parse the HTML content of the page.
+  The script extracts the video URLs, message text, links, and photos from the HTML content of the page using specific class and tag names.
+  The extracted information is stored in separate pandas DataFrames called df, dc, dl, and dp.
+  The script saves the DataFrames to separate CSV files using the to_csv() method of pandas.
+  The file name of each CSV file is derived from the username of the URL.
+
+Closing the Web Driver:
+  The script closes the web driver after scraping data from all URLs using the quit() method of the web driver.
+
+It is important to note that the script assumes that the HTML structure of the URLs is consistent and uses specific class and tag names to extract the data. If the structure of the HTML changes, the script may not work correctly. Additionally, the script requires the requests, bs4, pandas, and selenium libraries to be installed, and the Edge driver to be installed and in the system path.
