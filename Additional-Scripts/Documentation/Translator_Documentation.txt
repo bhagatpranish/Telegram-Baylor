@@ -1,0 +1,4 @@
+This is a Python script that reads a CSV file named "messages.csv" using the pandas library. 
+It creates an instance of the Googletrans Translator class and defines a function named "translate_message" that takes a message and returns its translation to English if it is not already in English. 
+The script then applies this function to the "message" column of the data frame and stores the translated messages in a new column named "translated_message". 
+Finally, it saves the modified data frame to a new CSV file named "translated_messages.csv" using the to_csv() function.
