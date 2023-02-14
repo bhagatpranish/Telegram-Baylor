@@ -1,0 +1,11 @@
+This program downloads media content from a list of links provided in a CSV file. 
+It first asks the user to enter the name of the CSV file and then creates a directory with the same name (without the file extension). 
+It then reads the CSV file and extracts the links, and then downloads the media from each link and saves it in the created directory.
+
+The program uses the csv and requests modules in Python. 
+The os module is also used to create a directory with the same name as the CSV file.
+
+The program loops through each link and downloads its media content. 
+The media is saved with a unique filename, which consists of the index of the link in the list and the file extension of the media content.
+
+After all media files have been downloaded, the program prints "Download complete." to indicate that the download process has finished.
