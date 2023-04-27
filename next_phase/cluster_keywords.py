@@ -1,0 +1,31 @@
+pdf_keywords = {
+    "2022.05.17_HRL_MM_Summary.pdf": [('bombardment', 1.6873410784573142), ('open', 1.7741819102112086), ('report', 2.14473536597699), ('visible', 2.1898431826146205), ('satellite', 2.529582022215934), ('healthcare', 2.650207631610079), ('hrl', 3.1136818703194242), ('imagery', 3.2788364848384566), ('facilities', 3.7913711528471574), ('damage', 4.27586556301113)],
+    "2022.06.29_YaleHRL_MM2_Final.pdf": [('2022', 8.455470469381407), ('table', 8.984164949149491), ('facility', 9.258813408593237), ('cc', 9.46417736705384), ('perma', 9.700100877692039), ('archived', 9.702856910373306), ('facilities', 10.74911931776139), ('imagery', 13.372048335044765), ('https', 13.672948240413016), ('damage', 22.826214751883175)],
+    "2022.11.18_Kherson_DD_12.10.pdf": [('individuals', 17.378751796344563), ('oblast', 19.78689718697449), ('kherson', 21.51980362270278), ('russia', 21.843278342244467), ('https', 24.929717238252515), ('detention', 25.032437736648898), ('concerns', 34.28765041610842), ('withheld', 34.59534188847572), ('protection', 35.24880881541726), ('source', 36.7695881617566)],
+    "202205140742.pdf": [('impact', 1.367829419355487), ('damage', 1.3884046447883953), ('sites', 1.4933043522577842), ('museum', 1.5670564817677888), ('smithsonian', 1.6121902416826686), ('impacts', 1.768572687732691), ('potential', 2.2468244581969525), ('heritage', 2.8061263781094534), ('cultural', 3.3919506679330764), ('2022', 3.6124159731387753)],
+    "20220824_Filtration_Report_1.pdf": [('com', 24.341898557327433), ('mariupol', 25.074868703286043), ('europe', 25.834035333526842), ('accessed', 35.91245868525083), ('august', 37.89605221514295), ('filtration', 42.87609181134503), ('ph', 48.54912436094461), ('archive', 49.01170394962247), ('2022', 72.92139390006862), ('https', 73.39480514414134)],
+    "20221213_NightTimeLights_Kyiv-Falling-Into-Darkness.pdf": [('https', 1.5635623511566272), ('december', 1.6007256225144066), ('kyiv', 1.678969921671855), ('light', 1.7636140045300188), ('production', 1.7683967462598276), ('ukraine', 2.0644681117486283), ('attacks', 2.133472214245703), ('2018', 2.256051070820502), ('10', 3.2679736199966807), ('2022', 3.4237601572158147)],
+    "displacement_20221014.pdf": [('ukrainian', 7.304271843694275), ('war', 7.513706915166073), ('movement', 8.086194913581135), ('civilians', 8.295096316953673), ('data', 8.971506411744322), ('displacement', 10.361087497188322), ('armed', 11.693769394361949), ('2022', 12.29414160557182), ('population', 14.104611381702107), ('conflict', 16.414385222822286)],
+    "Final_CO_Smithsonian_OSCEMM2_2022.06.30.pdf": [('heritage', 5.266111169772029), ('building', 5.359569809815213), ('cultural', 6.086190304280104), ('shows', 7.112623543596222), ('damage', 8.96003994846604), ('maxar', 10.40874234232369), ('nextview', 10.40874234232369), ('license', 10.40874234232369), ('image', 13.5436026745375), ('2022', 15.195915796529977)],
+    "Izyum_22.09.20_1130.pdf": [('cemetery', 3.0855889127762537), ('imagery', 3.2235546047023647), ('accessed', 3.2544587398502434), ('19', 3.266837922017701), ('izyum', 3.749134882097824), ('september', 4.325721585678766), ('ph', 5.560061651695619), ('archive', 5.77961576319203), ('2022', 6.834800478580187), ('https', 9.097210639882793)],
+    "Kherson_Regional_Art_Museum_Rapid_Report.pdf": [('ukraine', 3.5242859025863176), ('kherson_non_fake', 3.968916502422124), ('com', 4.45483893867249), ('post', 4.910057382837495), ('art', 5.769475486255232), ('https', 5.853124168633615), ('kherson', 6.253060034794232), ('november', 6.810359365850536), ('museum', 7.11082568827844), ('2022', 23.75976400607629)],
+    "Potential_Damage_Report_Jan_2023.pdf": [('potential', 1.9322836468774547), ('31', 2.037123231721758), ('https', 2.3141767544785865), ('ukraine', 2.334502731750828), ('damage', 2.6797009599278527), ('sites', 2.70484855573472), ('2023', 2.7937400109787243), ('2022', 2.990513642114292), ('heritage', 3.6837790941382615), ('cultural', 3.89636121982545)],
+    "YaleHRL_FactSheet__CropStorage_09.14_vFinal.pdf": [('world', 1.2890604412936262), ('million', 1.3772976697488764), ('invasion', 1.5101830583274358), ('tonnes', 1.557049677864915), ('facilities', 1.6106789245252573), ('grain', 1.639179834394449), ('crop', 2.1106276968095394), ('assessment', 2.1248548895548374), ('ukraine', 2.677037905283552), ('storage', 2.7197411500973736)],
+    "YaleHRL_Systematic.Reeducation.Transfer.2023.02.14.1237.pdf": [('2022', 14.838295316968294), ('ukraine', 20.42620724882046), ('camps', 20.89787925024459), ('https', 27.76108397515863), ('russia', 28.042226741913733), ('children', 37.24607193602846), ('withheld', 38.203192653564685), ('concerns', 38.35703975171171), ('protection', 38.61539573163759), ('source', 39.31808391322518)],
+}
+
+pdf_keywords_without_scores = {
+    "2022.05.17_HRL_MM_Summary.pdf": ['hrl', 'satellite', 'bombardment', 'open', 'visible', 'healthcare', 'report'],
+    "2022.06.29_YaleHRL_MM2_Final.pdf": ['table', 'archived', 'facility', 'perma'],
+    "2022.11.18_Kherson_DD_12.10.pdf": ['detention', 'individuals', 'oblast'],
+    "202205140742.pdf": ['impact', 'impacts', 'smithsonian'],
+    "20220824_Filtration_Report_1.pdf": ['filtration', 'august', 'mariupol', 'europe'],
+    "20221213_NightTimeLights_Kyiv-Falling-Into-Darkness.pdf": ['attacks', 'light', 'kyiv', '10', 'december', '2018', 'production'],
+    "displacement_20221014.pdf": ['population', 'armed', 'displacement', 'civilians', 'war', 'data', 'ukrainian', 'conflict', 'movement'],
+    "Final_CO_Smithsonian_OSCEMM2_2022.06.30.pdf": ['building', 'license', 'shows', 'nextview', 'maxar'],
+    "Izyum_22.09.20_1130.pdf": ['cemetery', '19', 'izyum', 'september'],
+    "Kherson_Regional_Art_Museum_Rapid_Report.pdf": ['non', 'kherson_non_fake', 'art', 'november', 'post', 'fake'],
+    "Potential_Damage_Report_Jan_2023.pdf": ['31', '2023'],
+    "YaleHRL_FactSheet__CropStorage_09.14_vFinal.pdf": ['tonnes', 'world', 'crop', 'storage', 'grain', 'assessment', 'invasion', 'million'],
+    "YaleHRL_Systematic.Reeducation.Transfer.2023.02.14.1237.pdf": ['children', 'camps'],
+}
