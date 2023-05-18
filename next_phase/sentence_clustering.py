@@ -154,20 +154,20 @@ def cluster_messages_in_directory(csv_directory_path: str, model_name_or_path: s
                     cluster_keywords_dict[cluster_directory] = cluster_keywords
 
                 # Check if the cluster_keywords.py file exists, if not create one
-                if not os.path.exists("cluster_keywords.py"):
-                    with open("cluster_keywords.py", "w", encoding='utf-8') as f:
+                if not os.path.exists("../../Downloads/OneDrive-2023-05-12(1)/cluster_keywords.py"):
+                    with open("../../Downloads/OneDrive-2023-05-12(1)/cluster_keywords.py", "w", encoding='utf-8') as f:
                         f.write("cluster_keywords_dict = {\n")
                         f.write("}\n")
 
                 # Check if the file is empty
                 file_empty = False
-                with open("cluster_keywords.py", "r", encoding='utf-8') as f:
+                with open("../../Downloads/OneDrive-2023-05-12(1)/cluster_keywords.py", "r", encoding='utf-8') as f:
                     content = f.read()
                     if content == "cluster_keywords_dict = {\n}\n":
                         file_empty = True
 
                 # Write the cluster_keywords_dict to the Python file called cluster_keywords.py
-                with open("cluster_keywords.py", "a", encoding='utf-8') as f:
+                with open("../../Downloads/OneDrive-2023-05-12(1)/cluster_keywords.py", "a", encoding='utf-8') as f:
                     if file_empty:
                         f.write("cluster_keywords_dict = {\n")
 
